@@ -19,7 +19,7 @@ This repository contains **pre-built versions of those compiled cache files**, s
 
 ## 📁 Repository Structure
 ```
-unsloth_compiled_TRL_cache/
+unsloth_compiled_cache/
 ├── README.md        # README File
 ├── UnslothSFTTrainer.py        # Compiled SFT Trainer
 ├── UnslothGRPOTrainer.py       # Compiled GRPO Trainer
@@ -34,14 +34,14 @@ unsloth_compiled_TRL_cache/
 
 ### Option 1 — Clone directly as your cache folder
 ```bash
-git clone https://github.com/alpha-ml/unsloth_compiled_TRL_cache unsloth_compiled_cache
+git clone https://github.com/Junior-JR1204/unsloth_compiled_cache unsloth_compiled_cache
 ```
 
 Then run your training script from the same directory. Unsloth will detect and use the existing cache instead of recompiling.
 
 ### Option 2 — Copy into an existing project
 ```bash
-cp -r unsloth_compiled_TRL_cache/* /path/to/your/project/unsloth_compiled_cache/
+cp -r unsloth_compiled_cache/* /path/to/your/project/unsloth_compiled_cache/
 ```
 
 ---
